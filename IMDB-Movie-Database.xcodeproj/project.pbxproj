@@ -11,6 +11,10 @@
 		FC849ACC2C4770340055D629 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC849ACB2C4770340055D629 /* ContentView.swift */; };
 		FC849ACE2C4770370055D629 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC849ACD2C4770370055D629 /* Assets.xcassets */; };
 		FC849AD12C4770380055D629 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC849AD02C4770380055D629 /* Preview Assets.xcassets */; };
+		FC849AD82C4770D90055D629 /* MoviesViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC849AD72C4770D90055D629 /* MoviesViewModal.swift */; };
+		FC849ADA2C4771340055D629 /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC849AD92C4771340055D629 /* MovieListView.swift */; };
+		FC849ADC2C4774AB0055D629 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC849ADB2C4774AB0055D629 /* CategoryView.swift */; };
+		FC849ADE2C47775A0055D629 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC849ADD2C47775A0055D629 /* MovieDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		FC849ACB2C4770340055D629 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC849ACD2C4770370055D629 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC849AD02C4770380055D629 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC849AD72C4770D90055D629 /* MoviesViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModal.swift; sourceTree = "<group>"; };
+		FC849AD92C4771340055D629 /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
+		FC849ADB2C4774AB0055D629 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		FC849ADD2C47775A0055D629 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				FC849AC92C4770340055D629 /* IMDB_Movie_DatabaseApp.swift */,
 				FC849ACB2C4770340055D629 /* ContentView.swift */,
+				FC849ADD2C47775A0055D629 /* MovieDetailView.swift */,
+				FC849AD92C4771340055D629 /* MovieListView.swift */,
+				FC849AD72C4770D90055D629 /* MoviesViewModal.swift */,
+				FC849ADB2C4774AB0055D629 /* CategoryView.swift */,
 				FC849ACD2C4770370055D629 /* Assets.xcassets */,
 				FC849ACF2C4770380055D629 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC849ADE2C47775A0055D629 /* MovieDetailView.swift in Sources */,
+				FC849AD82C4770D90055D629 /* MoviesViewModal.swift in Sources */,
+				FC849ADA2C4771340055D629 /* MovieListView.swift in Sources */,
 				FC849ACC2C4770340055D629 /* ContentView.swift in Sources */,
 				FC849ACA2C4770340055D629 /* IMDB_Movie_DatabaseApp.swift in Sources */,
+				FC849ADC2C4774AB0055D629 /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
